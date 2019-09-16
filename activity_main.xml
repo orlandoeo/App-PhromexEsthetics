@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="32dp"
+           android:background="@color/white"
+            android:src="@drawable/logoprhomexesthetic4"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#d8000000"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="192dp"
+                android:layout_height="149dp"
+                android:layout_marginBottom="50dp"
+                android:background="@drawable/circulo_image"
+                android:padding="20dp"
+                android:src="@drawable/mariposa" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:id="@+id/ir_login"
+                android:background="@drawable/btn_redondeado_white"
+                android:layout_marginLeft="20dp"
+                android:textColor="#403f3f"
+                android:elevation="5dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="16dp"
+                android:text="Iniciar Sesión"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:id="@+id/ir_registrarse"
+                android:background="@drawable/btn_redondeado_white"
+                android:layout_marginLeft="20dp"
+                android:textColor="#403f3f"
+                android:elevation="5dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="16dp"
+                android:text="Registrarse"
+                />
+
+
+
+            <!--Button inicio con facebook
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:id="@+id/iniciar_facebook"
+                android:background="@drawable/btn_facebook"
+                android:layout_marginLeft="20dp"
+                android:textColor="#fff"
+                android:elevation="5dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="16dp"
+                android:text="Iniciar con Facebook"
+                android:textAllCaps="false"
+
+                /-->
+
+            <!--Button Boton de inicio con instagram
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="20dp"
+                android:id="@+id/iniciar_instagram"
+                android:background="@drawable/btn_instagram"
+                android:layout_marginLeft="20dp"
+                android:textColor="#fff"
+                android:elevation="5dp"
+                android:layout_marginBottom="20dp"
+                android:textSize="16dp"
+                android:text="Iniciar con Instagram"
+                android:textAllCaps="false"
+
+                /-->
+
+        </LinearLayout>
+
+</RelativeLayout>
+
